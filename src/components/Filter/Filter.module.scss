@@ -14,6 +14,12 @@
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.1);
+      transition: 400ms;
+      color: white;
+    }
   }
 }
 
